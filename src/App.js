@@ -1,13 +1,18 @@
 import React from "react";
-import "./App.css";
+import "./css/index.css";
+
+import Navigation from "./components/Navigation/Navigation";
+import Heading from "./components/Header/Header";
+import Photo from "./components/PhotoCard/Photo";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+    <div>
+      <Navigation />
+      <Heading />
+      <Photo />
+      <Footer />
     </div>
   );
 }
